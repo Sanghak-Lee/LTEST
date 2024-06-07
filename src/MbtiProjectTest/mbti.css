@@ -1,0 +1,185 @@
+/* .mbtiLayout{
+    width:100vw;
+    font-size:14px;
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    height: calc(var(--vh,1vh) * 100);
+}
+
+.startPageLayout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffea35;
+    width:100%;
+    max-width: 900px;
+    height:100%;
+    color:#413730;
+}
+
+.startLogo{
+    font-size:25px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.startLogo div:nth-child(1){
+    background-color: #413730;
+    color:#ffea35;
+    width: 100px;
+    height:80px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.startLogo div:nth-child(2){
+    margin-top:-15px;
+}
+
+.startButton{
+    font-size:17px;
+    font-weight: 700;
+    margin-top:20px;
+}
+
+.questionLayout{
+    display: flex;
+    flex-direction: column;
+    background-color: #bacee0;
+    width:100%;
+    max-width: 900px;
+    height:100%;
+    overflow: hidden;
+}
+
+.mbtiTitle{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    align-items: center;
+    padding:15px;
+    box-sizing: border-box;
+    font-weight: 700;
+}
+
+.mbtiTitle div:nth-child(1){
+    display: flex;
+    flex:1;
+    text-align: left;
+}
+
+
+.questionList{
+    flex-direction: column;
+    height:100%;
+    overflow: scroll;
+}
+.questionItemLayout{
+    display: flex;
+    flex:1;
+    margin:10px 15px 5px 15px;
+}
+.answerItem{
+    width:100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileImg{
+    display: flex;
+    flex-direction: column;
+    width:40px;
+    height:40px;
+    background-color: #a1b6e9;
+    margin-right:5px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileImg div:nth-child(1){
+    background-color: #cbd6f2;
+    border-radius: 4px;
+    width:8px;
+    height:8px;
+}
+
+.profileImg div:nth-child(2){
+    background-color: #cbd6f2;
+    width: 16px;
+    height:8px;
+    border-radius: 8px 8px 0px 0px;
+    margin-top:2px;
+}
+
+.chatListLayout{
+    display: flex;
+    flex-direction: column;
+}
+
+.chatBox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 60vw;
+    margin:3px 0px 12px 0px;
+}
+
+.chatBox div:nth-child(1){
+    color:#fff;
+    font-size: 12px;
+    margin-top:8px;
+}
+
+.chatBox div:nth-child(2){
+    padding:7px 10px 7px 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 10px;
+    width:fit-content;
+    text-align: left;
+    margin-left:-4px;
+}
+
+.aChatBox{
+    display: flex;
+    width: 100%;
+    color:#969696;
+    font-size: 22px;
+    border-bottom:1px solid #eee;
+    margin-bottom:25px;
+}
+
+.aChatBox div:nth-child(1){
+    display: flex;
+    flex:1;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.aChatBox div:nth-child(2){
+    padding:10px;
+}
+
+.answerBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 0px #ededed;
+    border:1px solid #ededed;
+    height: 100px;
+    margin:0px 20px 15px 20px;
+    padding:10px;
+    box-sizing: border-box;
+} */

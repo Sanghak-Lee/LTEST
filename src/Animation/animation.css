@@ -1,0 +1,130 @@
+.textStyle{
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.textAniBox{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textAni1{
+    position: absolute;
+    opacity: 0;
+    animation: updown 15s;
+    animation-delay:  0s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.textAni2{
+    position: absolute;
+    opacity: 0;
+    animation: updown 15s;
+    animation-delay:  3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.textAni3{
+    position: absolute;
+    opacity: 0;
+    animation: updown 15s;
+    animation-delay:  6s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.textAni4{
+    position: absolute;
+    opacity: 0;
+    animation: updown 15s;
+    animation-delay:  9s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+.textAni5{
+    position: absolute;
+    opacity: 0;
+    animation: updown 15s;
+    animation-delay:  12s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes updown{
+    0%{
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
+    5%{
+        opacity: 1;
+        transform: translateZ(0); 
+    }
+    10%{
+        opacity: 1;
+        transform: translateZ(0); 
+    }
+    20%{
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate3d(0, 30%, 0);
+    }
+}
+
+
+
+.bgGradient {
+    
+    color:#ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(-45deg, #ee8432, #ff606c, #edca35);
+    background-size: 400% 400%;
+    animation: bg 3s ease infinite;
+}
+.bgGradient2 {
+    
+    color:#ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    background: linear-gradient(-45deg, #368cea, #7629ef, #50adf9);
+    background-size: 400% 400%;
+    animation: bg 3s ease infinite;
+}
+
+.bgGradient3 {
+    
+    color:#ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    background: linear-gradient(-45deg,   #323232, #000000, #111111);
+    background-size: 400% 400%;
+    animation: bg 3s ease infinite;
+}
+
+@keyframes bg { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+   

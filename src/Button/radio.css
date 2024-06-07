@@ -1,0 +1,358 @@
+.rbStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 460px;
+    box-shadow: 3px 3px 15px #dcdcdc;
+    border-radius: 10px;
+    padding:15px;
+    margin:5px;
+}
+ 
+  
+
+
+.rbbStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:15px;
+}
+
+
+ 
+
+
+.rs1{
+    font-size:14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+}
+
+.rs1 span {
+    margin-left:10px;
+}
+   
+
+.rs1 [type="radio"]{ 
+    appearance: none;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    border: 2px solid #dcdcdc;
+    border-radius: 250px;
+    width: 15px;
+    height: 15px;
+}
+ 
+.rs1 [type="radio"]:checked {
+    box-sizing: border-box;
+    border: 5px solid #ee8432;
+}
+
+.rs1 [type="radio"]:focus-visible {
+    outline: none;
+}
+ 
+
+.rs1 [type="radio"]:disabled {
+    background-color: #dcdcdc; 
+}
+
+.rs1 [type="radio"]:disabled + span {
+    color:#dcdcdc;
+}
+ 
+ 
+
+
+
+
+.rs2{
+    font-size:14px;
+}
+
+.rs2 span {
+    margin-left:10px;
+}
+  
+
+.rs2 [type="radio"]{ 
+    display: none;
+    
+}
+
+.rs2 >div { 
+    height: 15px;
+    width:15px;
+    min-width: 15px;
+    max-width: 15px;
+    border-radius: 250px;
+    padding:3px;
+    border:2px solid #cccccc;
+    box-sizing: border-box;
+}
+ 
+.rs2 >div>span {
+    width:100%;
+    height:100%;
+    border-radius: 250px;
+    background-color: #cccccc;   
+}
+ 
+
+.rs2 input[type=radio]:checked + div{ 
+    height: 15px;
+    width:15px;
+    min-width: 15px;
+    max-width: 15px;
+    border-radius: 250px;
+    padding:2px;
+    border:2px solid #ee8432;
+    box-sizing: border-box;
+} 
+
+.rs2 input[type=radio]:checked + div > div{ 
+    width:100%;
+    height:100%;
+    border-radius: 250px;
+    background-color: #ee8432;   
+} 
+ 
+
+.rs2 input[type=radio]:disabled + div{ 
+    height: 15px;
+    width:15px;
+    min-width: 15px;
+    max-width: 15px;
+    border-radius: 250px;
+    padding:2px;
+    border:2px solid #dcdcdc;
+    box-sizing: border-box;
+} 
+
+.rs2 input[type=radio]:disabled + div > div{ 
+    width:100%;
+    height:100%;
+    border-radius: 250px;
+    background-color: #dcdcdc;   
+}  
+
+.rs2 input[type=radio]:disabled + div + span{ 
+    color:#dcdcdc;
+}  
+
+
+
+.rs3{
+    font-size: 14px;
+    margin:0px 5px 0px 5px;
+}
+.rs3 input[type=radio] {
+    display: none;
+}
+.rs3 span {
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #dcdcdc;
+    box-sizing: border-box;
+}
+ 
+.rs3 input[type=radio]:checked + span {
+    border: 3px solid #ee8432;
+    color: #ee8432;
+    font-weight: 700;
+}
+  
+.rs3 input[type=radio] + label { 
+    color:#dcdcdc;
+}
+
+.rs3 input[type=radio]:disabled + span{ 
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    color: #dcdcdc;
+    box-sizing: border-box;  
+}  
+
+
+
+
+
+.rs4{ 
+    font-size: 14px;
+    margin:0px 10px 0px 10px;
+}
+.rs4 input[type=radio] {
+    display: none;
+}
+.rs4 span {
+    text-align: center;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 1px solid #dcdcdc;
+    color: #dcdcdc;
+}
+
+.rs4 span >div{
+    border: 2px solid #dcdcdc;
+    border-radius: 250px;
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+    margin-left:15px;
+    margin-right:15px;
+}
+ 
+.rs4 input[type=radio]:checked + span {
+    border: 1px solid #323232;
+    background-color: #323232;
+    color: #ffffff;
+    font-weight: 700;
+}
+  
+.rs4 input[type=radio]:checked + span >div {
+    border: 3px solid #ffffff;
+    border-radius: 250px;
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+}
+
+.rs4 input[type=radio] + label { 
+    color:#dcdcdc;
+}
+
+.rs4 input[type=radio]:disabled + span{ 
+    border:1px solid #f3f3f3;
+    background-color: #f3f3f3;
+    color: #dcdcdc;
+}  
+
+.rs4 input[type=radio]:disabled + span >div {
+    border: 2px solid #dcdcdc;
+    border-radius: 250px;
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+    height: 15px;
+    box-sizing: border-box;
+}
+
+.rs4 p{
+    width:100%;
+    text-align: right;
+    padding-right:15px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.rs5{ 
+    font-size: 14px;
+}
+.rs5 input[type=radio] {
+    display: none;
+}
+.rs5 span {
+    text-align: center;
+    height: auto;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 15px;
+    background-color: #ffffff;
+    margin:10px;
+    padding:15px;
+    box-shadow: 3px 3px 10px #dcdcdc;
+    border: 2px solid #ffffff;
+}
+
+.r5Title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 700;
+    padding:5px 0px 15px 0px;
+    align-items: center;
+}
+
+.r5Title >div{
+    width: 100%;
+    text-align: left;
+}
+
+.r5Title >p{
+    margin:0px;
+    width: 15px;
+    min-width: 15px;
+    max-width: 15px;
+    height: 15px;
+    min-height: 15px;
+    border:5px solid #dcdcdc;
+    border-radius: 250px;
+    box-sizing: border-box;
+}
+
+.r5Contents{
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+    padding-bottom: 5px;
+}
+
+.rs5 input[type=radio]:checked + span {
+    border: 2px solid #ee8432;
+    background-color: #fff5ee;
+}
+
+.rs5 input[type=radio]:checked + span > div >p {
+    border: 5px solid #ee8432;
+    width: 100%;
+    height: 100%;
+}
+
+
+.rs5 input[type=radio]:disabled + span {
+    color:#dcdcdc;
+}
+
+.rs5 input[type=radio]:disabled + span > div >p {
+    background-color: #f3f3f3;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+}
