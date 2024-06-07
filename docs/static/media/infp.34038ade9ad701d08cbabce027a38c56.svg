@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F9D4D4;}
+	.st1{fill:#FFBBBB;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#BA6A6A;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M40.2,49.9h-2c-3.1,0-5.7-2.5-5.7-5.7V16.9c0-3.1,2.5-5.7,5.7-5.7h2c3.1,0,5.7,2.5,5.7,5.7v27.4
+			C45.9,47.4,43.3,49.9,40.2,49.9z"/>
+		<path class="st1" d="M39.5,45.7h-0.7c-1,0-1.9-0.8-1.9-1.9V19.5c0-1,0.8-1.9,1.9-1.9h0.7c1,0,1.9,0.8,1.9,1.9v24.3
+			C41.4,44.8,40.6,45.7,39.5,45.7z"/>
+		<path class="st0" d="M61.8,49.9h-2c-3.1,0-5.7-2.5-5.7-5.7V16.9c0-3.1,2.5-5.7,5.7-5.7h2c3.1,0,5.7,2.5,5.7,5.7v27.4
+			C67.5,47.4,64.9,49.9,61.8,49.9z"/>
+		<path class="st1" d="M61.1,45.7h-0.7c-1,0-1.9-0.8-1.9-1.9V19.5c0-1,0.8-1.9,1.9-1.9h0.7c1,0,1.9,0.8,1.9,1.9v24.3
+			C63,44.8,62.2,45.7,61.1,45.7z"/>
+	</g>
+	<path class="st0" d="M82,62.6c0,17.7-14.3,26.1-32,26.1s-32-8.5-32-26.1s14.3-32,32-32S82,44.9,82,62.6z"/>
+	<g>
+		<g>
+			<circle class="st2" cx="41.5" cy="54.5" r="3.7"/>
+			<circle cx="42.7" cy="55.3" r="1.9"/>
+		</g>
+		<g>
+			<circle class="st2" cx="58.5" cy="54.5" r="3.7"/>
+			<circle cx="57.3" cy="55.3" r="1.9"/>
+		</g>
+	</g>
+	<g>
+		<ellipse class="st1" cx="33.3" cy="61" rx="4.2" ry="2.8"/>
+		<ellipse class="st1" cx="66.7" cy="61" rx="4.2" ry="2.8"/>
+	</g>
+	<path class="st3" d="M53.2,59c0,1.8-1.4,3.2-3.2,3.2s-3.2-1.4-3.2-3.2s1.4-1.8,3.2-1.8S53.2,57.2,53.2,59z"/>
+	<rect x="49.2" y="61" class="st3" width="1.6" height="7.8"/>
+	<rect x="45.9" y="68.4" class="st3" width="8.2" height="1.4"/>
+</g>
+</svg>
