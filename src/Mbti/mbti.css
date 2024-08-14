@@ -24,7 +24,7 @@
     color: blue;
     font-size: 2rem;
     position: absolute;
-    bottom: 0;    
+    bottom: 50px;    
 }
 .startPageLayout{
     display: flex;

@@ -44,16 +44,16 @@ function App() {
       <React.StrictMode>
         <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Main/>} /> 
+              <Route path="/LTEST" element={<Main/>} /> 
               {/* <Route path="/avatar" element={<Avatar/>} /> 
               <Route path="/button" element={<Button/>} /> 
               <Route path="/button/radio" element={<Radio/>}/>
               <Route path="/button/radiobutton" element={<RadioButton/>}/> */}
               {/* <Route path="/home" element={<Home/>} /> */}
-              <Route path="/yangangster" element={<Animation/>}/>
-              <Route path="/Game" element={<Game/>}/>
-              <Route path="/Love" element={<Mbti/>}/>
-              <Route path="/Love/Result" element={<MbtiResult/>}/> 
+              <Route path="/LTEST/letter" element={<Animation/>}/>
+              <Route path="/LTEST/Game" element={<Game/>}/>
+              <Route path="/LTEST/Love" element={<Mbti/>}/>
+              <Route path="/LTEST/Love/Result" element={<MbtiResult/>}/> 
               {/* <Route path="/MbtiTest" element={<MbtiTest/>}/> */}
             </Routes>
         </BrowserRouter>

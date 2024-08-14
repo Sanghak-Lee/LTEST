@@ -23,6 +23,7 @@ import imgCodepen from './resource/codepen.svg'
 import imgCareful from './resource/careful.svg'
 
 const Main =  (()=> {
+
   const navigate = useNavigate();
   const setOneVh = () => {
     const vh = window.innerHeight * 0.01;
@@ -95,7 +96,7 @@ const Main =  (()=> {
               </nav>
               
               <section>
-                 <img src={imgProfile} className='profileImg' alt='' onClick={()=>{navigate('/Love');}} /> 
+                 <img src={imgProfile} className='profileImg' alt='' onClick={()=>{navigate('/LTEST/Love');}} /> 
                 <article className='mainTitle1'>
                   상학's
                 </article>

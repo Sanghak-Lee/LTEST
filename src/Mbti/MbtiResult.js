@@ -26,7 +26,7 @@ const MbtiResult =  (()=> {
 
   useEffect(()=>{
     if(location?.state?.contents===undefined){
-      navigate('../mbti')
+      navigate('../Love')
     }
     setOneVh();
 
@@ -34,8 +34,8 @@ const MbtiResult =  (()=> {
         setOneVh();
     }
     window.addEventListener('resize',onResize);
-    window.open('https://i.ibb.co/1rqP3gp/text-to-image.png')
-    openModal();    
+    // window.open('https://i.ibb.co/1rqP3gp/text-to-image.png')
+    openModal();
   },[])
 
   const [Isopen, setIsOpen] = useState(false);
@@ -62,7 +62,7 @@ const MbtiResult =  (()=> {
           <div className='questionLayout'>
               
               <div className='mbtiTitle'>
-                <div>MBTI 테스트</div>
+                <div>현아&상학 궁합 테스트</div>
                 <div onClick={()=>navigate(-1)} style={{cursor:'pointer'}}>
                     다시하기
                 </div>
@@ -79,7 +79,7 @@ const MbtiResult =  (()=> {
 
                     <div className='chatListLayout'>
                       <div className='qChatbox'>
-                        <div>◀</div> <div>경희와 상학이 관계는 {mbtiContents.mbti=='H'?'ˋˏ❤︎ˎˊ':'ᝰෆ‍'} 입니다.</div>
+                        <div>◀</div> <div>현아와 상학이 관계는 {mbtiContents.mbti=='H'?'ˋˏ❤︎ˎˊ':'ᝰෆ‍'} 입니다.</div>
                       </div>
 
                       <div style={{width:'auto',height:'auto',backgroundColor:'#fff',borderRadius:10,
@@ -107,6 +107,12 @@ const MbtiResult =  (()=> {
                         )}
                         </div>
                       </div>
+
+                      <div className='qChatbox' style={{cursor:'pointer'}}>
+                        <div>◀</div>
+                        <div onClick={()=>{navigate('../../LTEST/letter')}} style={{color:'blue',fontWeight:'bold'}}> 다른곳 이동하기 </div>
+                      </div>
+
                     </div>
                   </div> 
 
