@@ -9,6 +9,7 @@
 /coverage
 
 # misc
+/etc
 .DS_Store
 .env.local
 .env.development.local
